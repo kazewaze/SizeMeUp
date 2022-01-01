@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
+::selection {
+  color: #0e141b;
+  background: #ffe100; /* WebKit/Blink Browsers */
+}
+
+::-webkit-selection {
+  color: #0e141b;
+  background: #ffe100;
+}
+
+::-moz-selection {
+  color: #0e141b;
+  background: #ffe100; /* Gecko Browsers */
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Readex Pro", "Inter", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  text-shadow: none !important;
+  scroll-behavior: smooth;
+  touch-action: manipulation;
+  color: #fff;
+  background-color: #0e141b;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  letter-spacing: 0.0625em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  flex: 1 0 auto;
+}
+
+.container,
+.dimension {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dimension {
+  max-width: 100%;
+  min-width: 300px;
+  margin: 14px 0 14px;
+  padding: 0;
+  border-radius: 7px;
+  background-color: #151f28;
+}
+
+#height, #width {
+  font-size: 35px;
+  font-weight: 700;
+  color: #ffe100;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 12px;
+  color: #fff;
+  background-color: #151f28;
+}
+
+.my-handle {
+  font-family: 'Fira Sans', "Readex Pro", "Inter", sans-serif;
+  font-weight: 700;
+  color: #ffe100;
+}
