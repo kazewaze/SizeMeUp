@@ -52,21 +52,23 @@ a {
 .dimension {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
-
-.container {
-  justify-content: space-evenly;
 }
 
 .dimension {
   max-width: 100%;
   min-width: 300px;
-  justify-content: center;
   margin: 14px 0 14px;
   padding: 0;
   border-radius: 7px;
   background-color: #151f28;
+}
+
+.dimension h1,
+#height,
+#width {
+  margin: 14px;
 }
 
 #height, #width {
